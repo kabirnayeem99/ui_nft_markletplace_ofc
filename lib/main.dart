@@ -11,7 +11,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Config.APP_NAME",
-      theme: ThemeData.dark(),
+      theme: ThemeData.light(),
       home: ChatsPage(),
     );
   }

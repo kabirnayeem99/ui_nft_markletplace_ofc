@@ -16,18 +16,10 @@ class StoriesWidget extends StatelessWidget {
         ),
       ),
       height: 100,
-      child: ListView(
+      child: ListView.builder(
+        itemBuilder: (context, index) => RoundedImageContainerWidget(),
         scrollDirection: Axis.horizontal,
-        children: [
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-          RoundedImageContainerWidget(),
-        ],
+        itemCount: 8,
       ),
     );
   }
