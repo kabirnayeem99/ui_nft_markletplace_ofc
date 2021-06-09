@@ -19,7 +19,8 @@ class ChatListsWidget extends StatelessWidget {
                 "https://cdn-img.health.com/sites/default/files/styles/400x400/public/migration/images/slides/man-face-tired-400x400.jpg",
             titleUsername: "username_$index",
             trailingTime: "09:14 PM",
-            trailingUnreadCount: 2,
+            trailingUnreadCount: null,
+            subtitleLastMessage: "message from ${index - 2}",
           );
         },
         itemCount: 30,

@@ -11,7 +11,7 @@ class ChatHeaderSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 220.0,
+      height: 250.0,
       decoration: BoxDecoration(
         color: Colors.deepPurpleAccent,
         borderRadius: BorderRadius.only(

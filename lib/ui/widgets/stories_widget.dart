@@ -17,7 +17,11 @@ class StoriesWidget extends StatelessWidget {
       ),
       height: 100,
       child: ListView.builder(
-        itemBuilder: (context, index) => RoundedImageContainerWidget(),
+        itemBuilder: (context, index) => RoundedImageContainerWidget(
+          username: "user_$index",
+          imageUrl:
+              "https://cdn-img.health.com/sites/default/files/styles/400x400/public/migration/images/slides/man-face-tired-400x400.jpg",
+        ),
         scrollDirection: Axis.horizontal,
         itemCount: 8,
       ),
